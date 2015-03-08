@@ -5,6 +5,7 @@ repo. If you need to override a setting locally, use local.py
 
 import os
 import logging
+import sys
 
 # Normally you should not import ANYTHING from Django directly
 # into your settings, but ImproperlyConfigured is an exception.
@@ -24,6 +25,7 @@ def get_env_setting(setting):
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__) + "../../../")
 PACKAGE_ROOT = os.path.abspath(os.path.dirname(__file__) + "/../")
 BASE_DIR = PACKAGE_ROOT
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "apps"))
 
 SUPPORTED_NONLOCALES = ['media', 'admin', 'static']
 
