@@ -1,15 +1,15 @@
 # Latest Django
-django==1.7.5
+django==1.7.6
 
 # for bcrypt passwords
 bcrypt
 
 # for oauth2 provider
-django-oauth-toolkit
+django-oauth-toolkit==0.7.2
 
 # rest framework
-djangorestframework==3.0.4
-djoser
+djangorestframework==3.1.0
+djoser==0.2.0
 
 # Templates
 django_compressor

@@ -1,7 +1,8 @@
 # django-apiserver
 
 Very opinionated api server. Comes with the following features 
-   * django-rest-framework
+   * authentication (oauth2)
+   * user profile
 
 Usage:
 
@@ -14,12 +15,11 @@ Getting Started:
 ```
 virtualenv mysiteenv
 source mysiteenv/bin/activate
-pip install Django==1.7.5
+pip install Django==1.7.6
 django-admin.py startproject --template=https://github.com/hapim/django-apiserver/zipball/master apiserver
 cd apiserver
 chmod +x manage.py
 pip install -r requirements.txt
 ./manage.py migrate
-./manage.py loaddata sites
 ./manage.py runserver
 ```
