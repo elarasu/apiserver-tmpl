@@ -10,7 +10,7 @@ Very opinionated api server. Comes with the following features
 
 ## Usage
 
-```django-admin.py startproject --template=https://github.com/hapim/django-apiserver/zipball/master <project_name>```
+```django-admin.py startproject --template=https://github.com/elarasu/apiserver-tmpl/zipball/master <project_name>```
 
 ## Instructions
 
@@ -18,7 +18,7 @@ Very opinionated api server. Comes with the following features
 virtualenv env
 source env/bin/activate
 pip install Django==1.8.3
-django-admin.py startproject --template=https://github.com/hapim/django-apiserver/zipball/master apiserver
+django-admin.py startproject --template=https://github.com/elarasu/apiserver-tmpl/zipball/master apiserver
 cd apiserver
 chmod +x manage.py
 pip install -r requirements.txt
