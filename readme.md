@@ -24,5 +24,9 @@ chmod +x manage.py
 pip install -r requirements.txt
 ./manage.py migrate
 ./manage.py syncdb
-./manage.py runserver 0.0.0.0:8080
 ```
+
+### run
+To run the server
+``` ./manage.py runserver 0.0.0.0:8080 ```
+
