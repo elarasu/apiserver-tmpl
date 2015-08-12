@@ -4,11 +4,15 @@ Very opinionated api server. Comes with the following features
    * authentication (oauth2)
    * user profile
 
-Usage:
+## Pre-requisites
+   * python 2.7
+   * pip/virtualenv
+
+## Usage
 
 ```django-admin.py startproject --template=https://github.com/hapim/django-apiserver/zipball/master <project_name>```
 
-Getting Started:
+## Instructions
 
 ```
 virtualenv env
